@@ -1,24 +1,23 @@
-// Student_Record_Management_System.cpp
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <string>
 #include <fstream>
-#include <conio.h>  // For _getch()
+#include <conio.h> 
 
 using namespace std;
 
-// ------------------------
+
 // ABSTRACT BASE CLASS
-// ------------------------
+
 class Person {
 public:
     virtual void displayBasic() const = 0; 
 };
 
-// ------------------------
+
 // STUDENT CLASS
-// ------------------------
+
 class Student : public Person {
 private:
     string id;
@@ -42,9 +41,9 @@ public:
     }
 };
 
-// ------------------------
+
 // ACADEMIC RECORD CLASS
-// ------------------------
+
 class AcademicRecord : public Student {
 private:
     string department;
@@ -112,9 +111,9 @@ public:
     }
 };
 
-// ------------------------
+
 // STUDENT MANAGEMENT SYSTEM
-// ------------------------
+
 class StudentManagement {
 private:
     vector<AcademicRecord> list;
@@ -161,7 +160,8 @@ public:
             return;
         }
 
-        // Collect unique departments
+// Collect unique departments
+
         vector<string> departments;
         for (auto &s : list) {
             if (find(departments.begin(), departments.end(), s.getDepartment()) == departments.end())
@@ -176,7 +176,8 @@ public:
             }
         }
 
-        // Enrollment year count
+// Enrollment year count
+		
         vector<int> years;
         for (auto &s : list) {
             if (find(years.begin(), years.end(), s.getEnrollmentYear()) == years.end())
@@ -356,9 +357,9 @@ public:
     }
 };
 
-// ------------------------
+
 // MAIN MENU
-// ------------------------
+
 int main() {
     StudentManagement sm;
     int choice;
@@ -385,7 +386,7 @@ int main() {
                 cout << "Enter Admin Password: ";
                 password = "";
                 char ch;
-                while ((ch = _getch()) != 13) { // ENTER key
+                while ((ch = _getch()) != 13) {
                     if (ch == 8) {
                         if (!password.empty()) {
                             password.pop_back();
@@ -419,3 +420,4 @@ int main() {
         }
     }
 }
+
