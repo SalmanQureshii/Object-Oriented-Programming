@@ -1,0 +1,175 @@
+1001
+Ahmed Khan
+20
+BSCS
+3.45
+2023
+2023
+1002
+Fatima Ali
+19
+BSCS
+3.78
+2024
+2024
+1003
+Hassan Raza
+21
+BSCS
+3.23
+2022
+2022
+1004
+Ayesha Malik
+20
+BSCS
+3.89
+2023
+2023
+1005
+Bilal Ahmed
+22
+BSCS
+3.12
+2021
+2021
+1006
+Zainab Hassan
+19
+BSCS
+3.67
+2024
+2024
+1007
+Usman Tariq
+21
+BSCS
+3.34
+2022
+2022
+1008
+Maryam Asif
+20
+BSCS
+3.91
+2023
+2023
+2001
+Ali Nawaz
+20
+Artificial Intelligence
+3.56
+2023
+2023
+2002
+Sara Iqbal
+19
+Artificial Intelligence
+3.82
+2024
+2024
+2003
+Hamza Yousaf
+21
+Artificial Intelligence
+3.41
+2022
+2022
+2004
+Hira Sheikh
+20
+Artificial Intelligence
+3.73
+2023
+2023
+2005
+Kamran Javed
+22
+Artificial Intelligence
+3.28
+2021
+2021
+2006
+Nida Farooq
+19
+Artificial Intelligence
+3.95
+2024
+2024
+2007
+Faisal Mahmood
+21
+Artificial Intelligence
+3.19
+2022
+2022
+2008
+Amna Saleem
+20
+Artificial Intelligence
+3.64
+2023
+2023
+3001
+Zain Abbas
+21
+PharmD
+3.52
+2023
+2023
+3002
+Aliya Noor
+20
+PharmD
+3.87
+2024
+2024
+3003
+Saad Butt
+22
+PharmD
+3.31
+2022
+2022
+3004
+Rabia Khan
+21
+PharmD
+3.76
+2023
+2023
+3005
+Imran Haider
+23
+PharmD
+3.15
+2021
+2021
+3006
+Mahnoor Riaz
+20
+PharmD
+3.69
+2024
+2024
+3007
+Arslan Baig
+22
+PharmD
+3.42
+2022
+2022
+3008
+Sana Bashir
+21
+PharmD
+3.91
+2023
+2023
+3009
+Rizwan Shah
+23
+PharmD
+3.27
+2021
+2021
